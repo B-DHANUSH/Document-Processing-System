@@ -1,0 +1,18 @@
+{
+  "invoice_items": {
+    "description": "Extract all product line items with name, quantity, and unit price from invoice.",
+    "prompt": "Extract all invoice items. Include product name, quantity, and unit price in a table format."
+  },
+  "contract_penalty": {
+    "description": "Extract penalty clauses and associated amounts from a contract document.",
+    "prompt": "From this contract, find and extract any penalty clauses and include the clause description and the penalty amount."
+  },
+  "purchase_order_fields": {
+    "description": "Get PO Number, Delivery Date, and Payment Terms from purchase order.",
+    "prompt": "Extract PO Number, Delivery Date, and Payment Terms from the provided purchase order document."
+  },
+  "simple_field_extraction": {
+    "description": "Basic extraction of Invoice No, Date, and Total Amount.",
+    "prompt": "Get the Invoice Number, Date, and Total Amount from this document. Return in JSON format."
+  }
+}
